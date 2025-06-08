@@ -1,1 +1,1 @@
-*
+* picha je suprcupr ucitel!
