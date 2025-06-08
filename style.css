@@ -65,4 +65,16 @@
 .hover-underline:hover::before {
   transform: scaleX(1);
 }
+      .ben a {
+        visibility: hidden;
+      }
+
+      .ben:hover a {
+        visibility: visible;
+      }
+
+      .finale {
+        font-size: 0.7rem;
+        margin-top: 2rem;
+      }
   
