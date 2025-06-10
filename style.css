@@ -58,8 +58,7 @@
       display: inline-block;
     }
 
-    .hover-underline::after,
-    .hover-underline::before {
+    .hover-underline::after {
       content: '';
       position: absolute;
       width: 100%;
@@ -72,13 +71,8 @@
       transition: transform 0.4s ease-out;
     }
 
-    .hover-underline::before {
-      top: -5px;
-      transform-origin: left;
-    }
     
-    .hover-underline:hover::after,
-    .hover-underline:hover::before {
+    .hover-underline:hover::after {
       transform: scaleX(1);
     }
 
