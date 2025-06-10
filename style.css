@@ -1,3 +1,6 @@
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       font-family: 'Unbounded', sans-serif;
@@ -15,6 +18,13 @@
     .content {
       font-size: 1.1rem;
       line-height: 1.6;
+    }
+
+    .seznam {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-right: 1.4rem;
+      margin-left: 1.4rem;
     }
 
     .fotka img {
@@ -65,6 +75,7 @@
 .hover-underline:hover::before {
   transform: scaleX(1);
 }
+
       .ben a {
         visibility: hidden;
       }
@@ -77,4 +88,13 @@
         font-size: 0.7rem;
         margin-top: 2rem;
       }
-  
+
+      @keyframes fall {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+
+.falling-text:hover {
+    position: relative;
+    animation: fall 2s ease-in-out forwards;
+}
