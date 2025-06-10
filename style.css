@@ -15,12 +15,12 @@
       visibility: hidden !important;
     }
 
-    .container {
+    .popelnice {
       max-width: 800px;
       margin: 0 auto;
     }
 
-    .content {
+    .basictext {
       font-size: 1.1rem;
       line-height: 1.6;
     }
