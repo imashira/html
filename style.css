@@ -5,8 +5,7 @@
     body {
       font-family: 'Unbounded', sans-serif;
       margin: 0;
-      padding: 2rem;
-      background-color: #fdfdfd;
+      background-image: linear-gradient(to bottom, white, rgb(133, 133, 133));
       height: 1930px;
       color: #222;
     }
@@ -14,8 +13,22 @@
     body.bila * {
       visibility: hidden !important;
     }
+    
+    h1 {
+      margin-top: .01rem;
+    }
+
+    .smegma {
+      justify-self: center;
+      font-size: 2.3rem;
+      width: 1897px;
+      height: 8rem;
+      background-color: #000000;
+      filter: blur(6px);
+    }
 
     .popelnice {
+      padding: 2rem;
       max-width: 800px;
       margin: 0 auto;
     }
@@ -26,7 +39,7 @@
     }
 
     .seznam {
-      color: rgb(82, 80, 80);
+      color: rgb(78, 78, 78);
       font-size: 1.1rem;
       line-height: 1.6;
       margin-right: 1.4rem;
@@ -39,6 +52,7 @@
       max-width: 200px;
       height: auto;
       border-radius: 10px;
+      
     }
 
     @media (max-width: 600px) {
